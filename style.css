@@ -2,9 +2,10 @@
 h1{color: #ffffff;}
 h1{font: 1em sans-serif;}
 h1{font-size: 60px; text-shadow: #333;}
-h2{font: 1em sans-serif; font-size: 40px; color: #ffffff;}
-h5{font: 1em sans-serif; font-size: 40px; color: #ffffff; text-align:right;}
+h2{font: 1em sans-serif; font-size: 40px; color: #ffffff; text-align: left;}
+h5{font: 1em sans-serif; font-size: 40px; color: #ffffff; text-align:left; padding: 30px 30px; float: left;}
 p{font: 1em sans-serif; color: #ffffff;}
+h6{font: 1em sans-serif; font-size: 40px; color: #ffffff; text-align:left; padding: 30px 30px; float:right;}
 body {
     background-image: url('background.png');
     background-size: cover;
