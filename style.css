@@ -4,7 +4,7 @@ h1{
   font: 1em sans-serif;
   font-size: 70px;
   text-shadow: #333;
-  padding: 50px 50px;
+  padding: 1px 50px;
 }
 h2{
   font: 1em sans-serif;
@@ -19,24 +19,25 @@ h6{
   padding: 1px 50px;
   text-align: left;
 }
-p{
-  font: 1em sans-serif;
-  color: #ffffff;
-  }
 .rightText h6{
   font: 1em sans-serif;
   font-size: 60px;
   color: #ffffff;
   padding: 1px 50px;
-  text-align: right;
-    }
-    .right h6{
-      font: 1em sans-serif;
-      font-size: 60px;
-      color: #ffffff;
-      padding: 1px 50px;
-      text-align: right;
-    }
+  float: right;
+}
+.leftText h6{
+  font: 1em sans-serif;
+  font-size: 60px;
+  color: #ffffff;
+  padding: 1px 50px;
+  float: right;
+}
+p{
+  font: 1em sans-serif;
+  color: #ffffff;
+}
+
 body {
 
     background-image: url('background.png');
@@ -63,7 +64,7 @@ body {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: #000;
   }
   
   /* Add a color to the active/current link */
