@@ -31,7 +31,7 @@ h6{
   font-size: 60px;
   color: #ffffff;
   padding: 1px 50px;
-  float: right;
+  text-align: right;
 }
 p{
   font: 1em sans-serif;
