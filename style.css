@@ -44,6 +44,10 @@ ul{
   color: #ffffff;
   padding: 1px 50px;
 }
+.turnaround img{
+  scale: 20%;
+  float: inline-end;
+}
 body {
 
     background-image: url('background.png');
