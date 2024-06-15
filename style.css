@@ -53,7 +53,7 @@ body {
     background-image: url('background.png');
     background-size: cover;
     height: 100%;}
-    img{scale: 400%; float: right;}
+    img{scale: 75%;}
     
     /* Add a black background color to the top navigation */
 .topnav {
